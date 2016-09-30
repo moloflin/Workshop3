@@ -1,0 +1,93 @@
+<!-- Used codepen to tidy this -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Twitter</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/twitter.css" rel="stylesheet">
+</head>
+<body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <form class="navbar-form navbar-left">
+                    <div class="btn-toolbar pull-left" role="toolbar">
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-default">
+                              <span class="glyphicon glyphicon-home"> Home</span>
+                            </button>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-default">
+                              <span class="glyphicon glyphicon-flash"> Moments</span>
+                            </button>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-default">
+                              <span class="glyphicon glyphicon-bell"> Notifcations</span>
+                            </button>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-default">
+                              <span class="glyphicon glyphicon-envelope"> Messages</span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <form class="navbar-form navbar-right">
+                    <div class="input-group twitter-search" role="search">
+                        <input type="text" class="form-control" placeholder="Search Twitter"> <span class="input-group-btn">
+                          <button type="submit" class="btn btn-default searchbutton">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        </span>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-default">
+                              PIC
+                        </button>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-default">
+                              <span class="glyphicon glyphicon-edit"> Tweet</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-footer">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="media-list">
+                                    <li class="media">
+                                        <div class="media-top media-left"> PIC
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="input-group twitter-comment">
+                                                <input type="text" class="form-control" placeholder="Reply to @NASA @NASA_Hubble">
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+        </div>
+</body>
+</html>
