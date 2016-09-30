@@ -31,6 +31,14 @@ input, input[type="text"] {
     box-shadow: none;
 }
 
+.twitter-react .list-inline>li>a {
+    color: black;
+}
+
+.twitter-react .list-inline>li>a {
+    color: gray;
+}
+
 .twitter-comment {
     width: 485px !important;
 }
